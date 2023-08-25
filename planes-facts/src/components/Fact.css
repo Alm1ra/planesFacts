@@ -1,0 +1,23 @@
+.fact-tile {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    background: linear-gradient(#4c275b, #c33d3dad);
+    padding: 1.5rem;
+    border-radius: 6px;
+    box-shadow: 0 2px 20px rgb(221 79 37 / 43%);
+    width: 33%;
+    transition: all 0.2s;
+  }
+
+  .fact-tile:hover {
+    transform: translateY(-2px);
+    transition: transform 0.2s;
+    box-shadow: 0 2px 20px rgba(249, 157, 44, 0.49);
+  }
+
+  .fact-tile img {
+    width: 150px;
+  }

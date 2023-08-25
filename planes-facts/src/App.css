@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+#facts {
+  max-width: 70rem;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
