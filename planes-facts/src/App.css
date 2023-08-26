@@ -38,9 +38,15 @@
 }
 
 #facts {
-  max-width: 70rem;
+  max-width: 95rem;
   margin: 2rem auto;
   display: flex;
   justify-content: center;
   gap: 1.5rem;
+}
+
+@media (max-width: 1500px) {
+  #facts {
+    flex-wrap: wrap;
+  }
 }

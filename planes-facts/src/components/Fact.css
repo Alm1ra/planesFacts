@@ -8,7 +8,7 @@
     padding: 1.5rem;
     border-radius: 6px;
     box-shadow: 0 2px 20px rgb(221 79 37 / 43%);
-    width: 33%;
+    width: 25%;
     transition: all 0.2s;
   }
 
@@ -19,5 +19,28 @@
   }
 
   .fact-tile img {
-    width: 150px;
+    /*width: 9rem;*/
+    height: 5rem;
+  }
+
+  .fact-tile h2 {
+    margin-bottom: 0;
+  }
+
+  @media (max-width: 1500px) {
+    .fact-tile {
+      width: calc(100% / 4);
+    }
+  }
+
+  @media (max-width: 1000px) {
+    .fact-tile {
+      width: calc(100% / 3);
+    }
+  }
+
+  @media (max-width: 800px) {
+    .fact-tile {
+      width: calc(100% / 2);
+    }
   }
