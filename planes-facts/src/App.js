@@ -1,4 +1,3 @@
-import './App.css';
 import Card from './components/Card';
 import Fact from './components/Fact';
 import F14 from './img/F14.png';
@@ -6,6 +5,7 @@ import F22 from './img/F22.png';
 import Harrier from './img/Harrier.png';
 import Dogfight from './img/Dogfight.png';
 import Rafale from './img/Rafale.png';
+import Header from './components/Header';
 
 function App() {
 
@@ -39,9 +39,7 @@ function App() {
 
   return (
     <Card>
-      <header>
-        <h1>Unveiling Fighter Plane Facts</h1>
-      </header>
+      <Header/>
       <div id="facts">
         <Fact image={facts[0].image} title={facts[0].title} description={facts[0].description}></Fact>
         <Fact image={facts[1].image} title={facts[1].title} description={facts[1].description}></Fact>

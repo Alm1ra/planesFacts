@@ -13,26 +13,16 @@ body {
   color: #d9c9ee;
 }
 
-header {
-  padding: 2rem;
+#facts {
+  max-width: 95rem;
+  margin: 2rem auto;
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: center;
-  margin-bottom: 3rem;
-  margin-top: 3rem;
-  text-align: center;
+  gap: 1.5rem;
 }
 
-header img {
-  width: 7rem;
-}
-
-header h1 {
-  margin: 0;
-  font-size: 2rem;
-}
-
-header p {
-  margin: 0;
+@media (max-width: 1500px) {
+  #facts {
+    flex-wrap: wrap;
+  }
 }
