@@ -1,4 +1,3 @@
-import Card from './components/Card';
 import Fact from './components/Fact';
 import F14 from './img/F14.png';
 import F22 from './img/F22.png';
@@ -38,7 +37,7 @@ function App() {
   ];
 
   return (
-    <Card>
+    <div>
       <Header/>
       <div id="facts">
         <Fact image={facts[0].image} title={facts[0].title} description={facts[0].description}></Fact>
@@ -47,7 +46,7 @@ function App() {
         <Fact image={facts[3].image} title={facts[3].title} description={facts[3].description}></Fact>
         <Fact image={facts[4].image} title={facts[4].title} description={facts[4].description}></Fact>
       </div>   
-    </Card>
+    </div>
   );
 }
 

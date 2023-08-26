@@ -1,9 +1,10 @@
 import './Header.css';
+import Card from './Card'
 
 export default function Header() {
     return (
-        <div className="header">
+        <Card className="header">
             <h1>Unveiling Fighter Plane Facts</h1>
-        </div>
+        </Card>
     )
 }
